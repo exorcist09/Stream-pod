@@ -1,0 +1,26 @@
+/* <div className='text-2xl flex justify-between font-bold p-3 border-b-2 border-gray-500'>
+  */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    font-weight: bold;
+    padding:10px;
+    border-bottom: 2px solid rgb(169, 167, 167);
+    margin-right:30px;
+    margin-left:30px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add{
+  margin-right:30px;
+  cursor: pointer;
+}
+
+.login{
+  cursor:pointer
+}
