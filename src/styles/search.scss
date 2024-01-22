@@ -1,0 +1,37 @@
+@import "./mixins.scss";
+.searchResultsPage {
+    min-height: 700px;
+    padding-top: 10px;
+    .resultNotFound {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: grey;
+        img{
+            width:200px;
+            height:200px;
+        }
+    }
+    .PageTitle {
+        font-size: 24px;
+        line-height: 34px;
+        color: grey;
+        margin-bottom: 25px;
+    }
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 10px;
+        margin-bottom: 50px;
+        @include md {
+            gap: 20px;
+        }
+        .movieCard {
+            .posterBlock {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
